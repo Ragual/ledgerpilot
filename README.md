@@ -15,11 +15,11 @@ The system is designed around a simple principle:
 
 ### Exception Monitoring
 
-![Exception Monitor](screenshots/Top Priority Exceptions.png)
+![Exception Monitor](screenshots/Top%20Priority%20Exceptions.png)
 
 ### Human-in-the-Loop Review
 
-![Human Review](screenshots/Human Review.png)
+![Human Review](screenshots/Human%20Review.png)
 
 ## 🚀 Overview
 
