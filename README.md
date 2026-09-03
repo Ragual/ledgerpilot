@@ -9,6 +9,17 @@ The system is designed around a simple principle:
 > **AI recommends. Guardrails decide. Humans remain in control of financial decisions.**
 
 ---
+## Dashboard
+
+![LedgerPilot Dashboard](screenshots/dashboard-overview.png)
+
+### Exception Monitoring
+
+![Exception Monitor](screenshots/Top Priority Exceptions.png)
+
+### Human-in-the-Loop Review
+
+![Human Review](screenshots/Human Review.png)
 
 ## 🚀 Overview
 
