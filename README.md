@@ -268,6 +268,7 @@ ledgerpilot/
 ├── app_dashboard.py
 ├── bank_generator.py
 ├── README.md
+├── LICENSE
 │
 ├── data/
 │   ├── payments.csv
@@ -300,6 +301,8 @@ ledgerpilot/
     └── stress_test.py
 ```
 
+> Generated CSV/JSON files are excluded from version control and are recreated by the pipeline.
+
 ---
 
 # 🛠️ Technology Stack
@@ -323,7 +326,7 @@ ledgerpilot/
 ## 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/Ragual/ledgerpilot.git
 cd ledgerpilot
 ```
 
@@ -337,16 +340,22 @@ pip install -r requirements.txt
 
 Copy the example environment file:
 
+```powershell
 copy .env.example .env
+```
 
-Then open .env and add your Gemini API key:
+Then open `.env` and add your Gemini API key:
 
+```env
 GEMINI_API_KEY=YOUR_API_KEY
 GEMINI_MODEL=gemini-3.6-flash
+```
 
-Never commit your .env file.
+Never commit your `.env` file.
 
 If a Gemini API key is not configured, LedgerPilot automatically uses its deterministic fallback investigation engine.
+
+---
 
 # ▶️ Running LedgerPilot
 
@@ -651,28 +660,28 @@ LedgerPilot does not depend completely on an external LLM.
 
 # 🎯 Example Investigation
 
-Example missing settlement:
+Example partial settlement:
 
 ```text
-Transaction: TX0143
+Transaction: TX0003
 
-Payment: ₹9,999.00
-Bank: ₹0.00
+Payment: ₹799.00
+Bank Settlement: ₹399.50
 
 Exception:
-MISSING_SETTLEMENT
+PARTIAL_SETTLEMENT
 
 Diagnosis:
-Successful payment has no matching bank settlement.
+Payment was only partially settled in the bank.
 
 Risk:
 HIGH
 
 Priority:
-CRITICAL
+HIGH
 
 Recommended action:
-Investigate settlement status and payout records.
+Investigate the settlement difference and verify payout records.
 
 Guardrail:
 HUMAN_REVIEW
@@ -785,13 +794,9 @@ LedgerPilot is currently a prototype using synthetic financial data.
 Important limitations include:
 
 1. The dataset is simulated and does not represent real payment-provider traffic.
-
 2. The current Gemini integration may fall back to deterministic reasoning when API quota or availability is limited.
-
 3. Current evaluation results measure performance on controlled synthetic scenarios, not production transactions.
-
 4. The project does not currently execute real payment, refund, transfer, or settlement operations.
-
 5. A production deployment would require stronger authentication, authorization, observability, data encryption, audit controls, secret management, database persistence, and compliance/security review.
 
 ---
@@ -832,7 +837,7 @@ A recommended Buildathon demo flow:
 
 3. Open Top Priority Exceptions
 
-4. Select a CRITICAL missing settlement
+4. Select a high-priority exception
 
 5. Show:
    Payment amount
@@ -886,8 +891,6 @@ The goal is to combine the strengths of deterministic financial logic and AI rea
 ---
 
 # 📄 License
-
-## License
 
 This project is licensed under the [MIT License](LICENSE).
 
