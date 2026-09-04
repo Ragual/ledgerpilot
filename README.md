@@ -9,17 +9,6 @@ The system is designed around a simple principle:
 > **AI recommends. Guardrails decide. Humans remain in control of financial decisions.**
 
 ---
-## Dashboard
-
-![LedgerPilot Dashboard](screenshots/dashboard-overview.png)
-
-### Exception Monitoring
-
-![Exception Monitor](screenshots/Top%20Priority%20Exceptions.png)
-
-### Human-in-the-Loop Review
-
-![Human Review](screenshots/Human%20Review.png)
 
 ## 🚀 Overview
 
@@ -108,11 +97,11 @@ LedgerPilot includes an LLM investigation layer designed to return structured re
 }
 ```
 
-The AI layer is separated from deterministic finance logic so the application can continue operating safely when the external model is unavailable.
+The AI layer is separated from the deterministic finance logic so the application can continue operating safely when the external model is unavailable.
 
 ### 4. Safe AI Fallback
 
-When the Gemini API is unavailable or the configured quota is exhausted, LedgerPilot automatically falls back to deterministic investigation rules.
+When the Gemini API quota is unavailable, LedgerPilot falls back to deterministic investigation rules.
 
 This ensures the application does not stop functioning because of external AI availability.
 
@@ -261,7 +250,7 @@ The Streamlit dashboard provides:
                                          │
                                          ▼
                               ┌──────────────────────┐
-                              │  Streamlit Dashboard │
+                              │   Streamlit Dashboard │
                               └──────────────────────┘
 ```
 
@@ -274,11 +263,11 @@ ledgerpilot/
 │
 ├── .env.example
 ├── .gitignore
+├── requirements.txt
 ├── app.py
 ├── app_dashboard.py
 ├── bank_generator.py
 ├── README.md
-├── requirements.txt
 │
 ├── data/
 │   ├── payments.csv
@@ -310,8 +299,6 @@ ledgerpilot/
     ├── evaluate_adversarial.py
     └── stress_test.py
 ```
-
-> `.env` and generated files inside `data/` are excluded from Git through `.gitignore`. The repository provides `.env.example` as the configuration template.
 
 ---
 
@@ -346,41 +333,20 @@ cd ledgerpilot
 pip install -r requirements.txt
 ```
 
-The required dependencies are defined in:
-
-```text
-requirements.txt
-```
-
 ## 3. Configure the API key
 
 Copy the example environment file:
 
-```bash
 copy .env.example .env
-```
 
-Then open `.env` and add your Gemini API key:
+Then open .env and add your Gemini API key:
 
-```env
 GEMINI_API_KEY=YOUR_API_KEY
 GEMINI_MODEL=gemini-3.6-flash
-```
 
-The remaining AI configuration values are already provided in `.env.example`:
-
-```env
-LLM_TIMEOUT_SECONDS=120
-LLM_BATCH_SIZE=50
-LLM_MAX_RETRIES=3
-LLM_RETRY_BASE_SECONDS=2
-```
-
-Never commit your `.env` file.
+Never commit your .env file.
 
 If a Gemini API key is not configured, LedgerPilot automatically uses its deterministic fallback investigation engine.
-
----
 
 # ▶️ Running LedgerPilot
 
@@ -426,7 +392,7 @@ python services/evaluate.py
 python services/ai_investigator.py
 ```
 
-If the Gemini API is unavailable or the configured quota is exhausted, the system automatically falls back to deterministic investigation logic.
+If the Gemini quota is unavailable, the system automatically falls back to deterministic investigation logic.
 
 ## Run guardrails
 
@@ -472,12 +438,12 @@ The current controlled benchmark contains:
 Current reconciliation distribution:
 
 ```text
-MATCHED:                274
-FAILED_PAYMENT:         115
-AMOUNT_MISMATCH:         39
-PARTIAL_SETTLEMENT:      44
-MISSING_SETTLEMENT:      22
-DUPLICATE_SETTLEMENT:     6
+MATCHED:               274
+FAILED_PAYMENT:        115
+AMOUNT_MISMATCH:        39
+PARTIAL_SETTLEMENT:     44
+MISSING_SETTLEMENT:     22
+DUPLICATE_SETTLEMENT:    6
 ```
 
 This results in:
@@ -497,10 +463,10 @@ Actual discrepancy:        ₹82,881.75
 ### Exception breakdown
 
 ```text
-AMOUNT_MISMATCH:        39
-PARTIAL_SETTLEMENT:     44
-MISSING_SETTLEMENT:     22
-DUPLICATE_SETTLEMENT:    6
+AMOUNT_MISMATCH:       39
+PARTIAL_SETTLEMENT:    44
+MISSING_SETTLEMENT:    22
+DUPLICATE_SETTLEMENT:   6
 ```
 
 ---
@@ -681,34 +647,32 @@ LedgerPilot does not depend completely on an external LLM.
                        Human Review
 ```
 
-The deterministic fallback uses the existing reconciliation diagnosis and priority information rather than inventing unsupported financial conclusions.
-
 ---
 
 # 🎯 Example Investigation
 
-Example partial settlement:
+Example missing settlement:
 
 ```text
-Transaction: TX0003
+Transaction: TX0143
 
-Payment: ₹799.00
-Bank Settlement: ₹399.50
+Payment: ₹9,999.00
+Bank: ₹0.00
 
 Exception:
-PARTIAL_SETTLEMENT
+MISSING_SETTLEMENT
 
 Diagnosis:
-Payment was only partially settled in the bank.
+Successful payment has no matching bank settlement.
 
 Risk:
 HIGH
 
 Priority:
-HIGH
+CRITICAL
 
 Recommended action:
-Investigate the settlement difference and verify payout records.
+Investigate settlement status and payout records.
 
 Guardrail:
 HUMAN_REVIEW
@@ -804,7 +768,7 @@ The total payment value associated with exception cases.
 
 ### Actual discrepancy
 
-The observed difference between payment and bank amounts for applicable mismatch and partial-settlement cases.
+The observed difference between payment and bank amounts for applicable mismatch/partial-settlement cases.
 
 ### Priority
 
@@ -822,7 +786,7 @@ Important limitations include:
 
 1. The dataset is simulated and does not represent real payment-provider traffic.
 
-2. The Gemini integration may fall back to deterministic reasoning when API quota or availability is limited.
+2. The current Gemini integration may fall back to deterministic reasoning when API quota or availability is limited.
 
 3. Current evaluation results measure performance on controlled synthetic scenarios, not production transactions.
 
@@ -868,7 +832,7 @@ A recommended Buildathon demo flow:
 
 3. Open Top Priority Exceptions
 
-4. Select a high-priority exception
+4. Select a CRITICAL missing settlement
 
 5. Show:
    Payment amount
@@ -923,13 +887,9 @@ The goal is to combine the strengths of deterministic financial logic and AI rea
 
 # 📄 License
 
-Add your preferred license before publishing the repository.
+## License
 
-For example:
-
-```text
-MIT License
-```
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
