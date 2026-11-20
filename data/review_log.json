@@ -1,0 +1,8 @@
+[
+    {
+        "transaction_id": "TX0003",
+        "decision": "ESCALATE",
+        "reviewer_note": "Reviewed TX0003. Payment amount is \u20b9799.00 while bank settlement is \u20b9399.50, indicating a partial settlement. Manual review is required to verify the remaining \u20b9399.50 and confirm the corresponding payout record before reconciliation.\n",
+        "timestamp": "2026-09-04T23:14:46"
+    }
+]

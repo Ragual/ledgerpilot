@@ -1,0 +1,501 @@
+transaction_id,payment_amount,bank_amount,result,diagnosis,confidence,recommendation,priority
+TX0001,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0002,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0003,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0004,1499.0,1449.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0005,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0006,499.0,374.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0007,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0008,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0009,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0010,799.0,699.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0011,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0012,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0013,4999.0,9998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0014,799.0,699.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0015,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0016,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0017,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0018,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0019,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0020,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0021,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0022,1499.0,2998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0023,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0024,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0025,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0026,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0027,499.0,489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0028,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0029,9999.0,4999.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0030,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0031,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0032,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0033,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0034,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0035,9999.0,19998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0036,499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0037,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0038,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0039,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0040,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0041,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0042,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0043,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0044,1499.0,1479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0045,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0046,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0047,499.0,124.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0048,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0049,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0050,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0051,999.0,949.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0052,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0053,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0054,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0055,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0056,1499.0,1479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0057,1499.0,374.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0058,999.0,499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0059,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0060,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0061,499.0,449.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0062,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0063,999.0,979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0064,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0065,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0066,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0067,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0068,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0069,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0070,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0071,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0072,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0073,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0074,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0075,499.0,249.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0076,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0077,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0078,499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0079,2499.0,2489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0080,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0081,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0082,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0083,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0084,499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0085,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0086,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0087,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0088,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0089,1499.0,749.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0090,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0091,999.0,749.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0092,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0093,799.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0094,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0095,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0096,9999.0,9899.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0097,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0098,999.0,499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0099,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0100,9999.0,9979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0101,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0102,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0103,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0104,499.0,489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0105,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0106,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0107,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0108,2499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0109,9999.0,9979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0110,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0111,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0112,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0113,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0114,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0115,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0116,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0117,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0118,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0119,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0120,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0121,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0122,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0123,999.0,499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0124,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0125,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0126,9999.0,9979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0127,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0128,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0129,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0130,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0131,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0132,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0133,799.0,399.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0134,499.0,399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0135,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0136,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0137,799.0,1598.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0138,499.0,489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0139,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0140,9999.0,2499.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0141,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0142,799.0,749.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0143,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0144,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0145,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0146,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0147,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0148,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0149,499.0,479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0150,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0151,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0152,499.0,479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0153,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0154,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0155,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0156,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0157,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0158,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0159,9999.0,9979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0160,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0161,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0162,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0163,799.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0164,9999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0165,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0166,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0167,1499.0,1399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0168,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0169,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0170,9999.0,19998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0171,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0172,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0173,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0174,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0175,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0176,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0177,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0178,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0179,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0180,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0181,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0182,1499.0,1399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0183,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0184,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0185,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0186,799.0,749.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0187,2499.0,1874.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0188,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0189,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0190,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0191,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0192,499.0,249.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0193,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0194,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0195,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0196,9999.0,9949.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0197,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0198,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0199,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0200,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0201,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0202,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0203,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0204,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0205,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0206,1499.0,1479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0207,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0208,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0209,799.0,599.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0210,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0211,999.0,989.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0212,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0213,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0214,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0215,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0216,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0217,799.0,789.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0218,4999.0,4979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0219,9999.0,9899.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0220,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0221,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0222,1499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0223,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0224,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0225,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0226,799.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0227,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0228,799.0,1598.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0229,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0230,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0231,4999.0,2499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0232,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0233,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0234,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0235,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0236,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0237,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0238,999.0,899.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0239,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0240,9999.0,19998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0241,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0242,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0243,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0244,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0245,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0246,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0247,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0248,799.0,779.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0249,999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0250,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0251,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0252,1499.0,1489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0253,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0254,4999.0,4979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0255,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0256,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0257,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0258,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0259,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0260,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0261,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0262,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0263,4999.0,4989.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0264,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0265,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0266,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0267,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0268,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0269,999.0,989.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0270,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0271,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0272,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0273,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0274,1499.0,1489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0275,999.0,1998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0276,1499.0,1489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0277,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0278,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0279,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0280,499.0,374.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0281,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0282,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0283,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0284,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0285,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0286,4999.0,9998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0287,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0288,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0289,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0290,2499.0,2489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0291,4999.0,4949.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0292,2499.0,624.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0293,4999.0,9998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0294,1499.0,749.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0295,1499.0,1399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0296,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0297,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0298,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0299,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0300,499.0,374.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0301,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0302,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0303,2499.0,2479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0304,2499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0305,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0306,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0307,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0308,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0309,2499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0310,9999.0,9899.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0311,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0312,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0313,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0314,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0315,999.0,1998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0316,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0317,1499.0,2998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0318,1499.0,1479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0319,999.0,949.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0320,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0321,499.0,124.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0322,2499.0,624.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0323,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0324,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0325,499.0,479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0326,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0327,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0328,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0329,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0330,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0331,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0332,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0333,1499.0,374.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0334,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0335,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0336,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0337,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0338,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0339,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0340,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0341,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0342,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0343,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0344,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0345,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0346,499.0,479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0347,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0348,4999.0,4979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0349,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0350,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0351,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0352,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0353,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0354,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0355,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0356,499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0357,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0358,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0359,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0360,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0361,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0362,1499.0,1399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0363,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0364,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0365,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0366,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0367,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0368,999.0,989.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0369,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0370,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0371,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0372,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0373,2499.0,1874.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0374,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0375,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0376,4999.0,9998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0377,1499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0378,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0379,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0380,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0381,4999.0,1249.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0382,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0383,2499.0,2449.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0384,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0385,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0386,499.0,489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0387,9999.0,9949.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0388,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0389,499.0,124.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0390,1499.0,1479.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0391,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0392,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0393,799.0,1598.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0394,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0395,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0396,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0397,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0398,1499.0,1399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0399,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0400,9999.0,4999.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0401,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0402,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0403,799.0,789.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0404,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0405,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0406,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0407,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0408,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0409,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0410,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0411,2499.0,2449.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0412,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0413,799.0,779.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0414,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0415,999.0,499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0416,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0417,9999.0,4999.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0418,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0419,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0420,2499.0,1874.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0421,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0422,9999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0423,2499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0424,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0425,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0426,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0427,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0428,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0429,9999.0,2499.75,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 25.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0430,499.0,374.25,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 75.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0431,499.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0432,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0433,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0434,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0435,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0436,1499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0437,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0438,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0439,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0440,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0441,999.0,499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0442,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0443,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0444,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0445,1499.0,1489.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0446,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0447,999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0448,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0449,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0450,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0451,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0452,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0453,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0454,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0455,999.0,979.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0456,499.0,249.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0457,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0458,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0459,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0460,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0461,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0462,4999.0,0.0,MISSING_SETTLEMENT,Successful payment has no matching bank settlement,0.95,Investigate settlement status and payout records,HIGH
+TX0463,799.0,1598.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0464,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0465,9999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0466,4999.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0467,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0468,799.0,1598.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0469,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0470,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0471,2499.0,2399.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0472,499.0,499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0473,999.0,499.5,PARTIAL_SETTLEMENT,Partial settlement detected; approximately 50.0% of the payment was credited,0.97,Verify settlement schedule and check for remaining payout,HIGH
+TX0474,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0475,999.0,1998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0476,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0477,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0478,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0479,799.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0480,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0481,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0482,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0483,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0484,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0485,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0486,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0487,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0488,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0489,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0490,499.0,449.0,AMOUNT_MISMATCH,Likely processing fee or settlement adjustment,0.9,Verify applicable fee and reconcile,LOW
+TX0491,9999.0,19998.0,DUPLICATE_SETTLEMENT,Multiple bank records found for the same transaction,0.98,Investigate duplicate settlement before reconciliation,HIGH
+TX0492,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0493,9999.0,9999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0494,999.0,999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0495,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0496,499.0,0.0,FAILED_PAYMENT,Payment failed; no settlement expected,0.99,No settlement action required,NONE
+TX0497,1499.0,1499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0498,4999.0,4999.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0499,799.0,799.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE
+TX0500,2499.0,2499.0,MATCHED,Payment fully reconciled,0.99,No action required,NONE

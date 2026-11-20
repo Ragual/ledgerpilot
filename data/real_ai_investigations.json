@@ -1,0 +1,1402 @@
+[
+  {
+    "transaction_id": "TX0004",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 exceeds bank settlement amount of 1449.0 by 50.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0006",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Bank settlement of 374.25 covers 75.0% of payment amount 499.0, leaving an unsettled balance of 124.75.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0010",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 799.0 exceeds bank settlement amount of 699.0 by 100.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0013",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank settlement of 9998.0 is twice the expected payment amount of 4999.0, indicating potential duplicate settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0014",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 799.0 exceeds bank settlement amount of 699.0 by 100.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0021",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 4999.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0022",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank settlement of 2998.0 is twice the payment amount of 1499.0, indicating potential duplicate settlement.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0027",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 489.0 by 10.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0028",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 4999.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0029",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 4999.5 covers 50.0% of payment amount 9999.0, leaving an unsettled balance of 4999.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0035",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank settlement of 19998.0 is twice the payment amount of 9999.0, indicating potential duplicate settlement.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0036",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 499.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0044",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 exceeds bank settlement amount of 1479.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0047",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Bank settlement of 124.75 covers 25.0% of payment amount 499.0, leaving an unsettled balance of 374.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0051",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 999.0 exceeds bank settlement amount of 949.0 by 50.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0056",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 exceeds bank settlement amount of 1479.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0057",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Bank settlement of 374.75 covers 25.0% of payment amount 1499.0, leaving an unsettled balance of 1124.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0058",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 499.5 covers 50.0% of payment amount 999.0, leaving an unsettled balance of 499.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0061",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 449.0 by 50.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0063",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 999.0 exceeds bank settlement amount of 979.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0070",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 4999.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0075",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 249.5 covers 50.0% of payment amount 499.0, leaving an unsettled balance of 249.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0078",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 499.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0079",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 2499.0 exceeds bank settlement amount of 2489.0 by 10.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0084",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 499.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0089",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 749.5 covers 50.0% of payment amount 1499.0, leaving an unsettled balance of 749.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0091",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Bank settlement of 749.25 covers 75.0% of payment amount 999.0, leaving an unsettled balance of 249.75.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0093",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 799.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0096",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 9999.0 exceeds bank settlement amount of 9899.0 by 100.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0098",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 499.5 covers 50.0% of payment amount 999.0, leaving an unsettled balance of 499.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0100",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 9999.0 exceeds bank settlement amount of 9979.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0104",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 489.0 by 10.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0108",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 2499.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0109",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 9999.0 exceeds bank settlement amount of 9979.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0123",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 499.5 covers 50.0% of payment amount 999.0, leaving an unsettled balance of 499.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0126",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 9999.0 exceeds bank settlement amount of 9979.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0133",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank settlement of 399.5 covers 50.0% of payment amount 799.0, leaving an unsettled balance of 399.5.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0134",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 399.0 by 100.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0136",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 4999.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0137",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank settlement of 1598.0 is twice the payment amount of 799.0, indicating potential duplicate settlement.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0138",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 489.0 by 10.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0140",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Bank settlement of 2499.75 covers 25.0% of payment amount 9999.0, leaving an unsettled balance of 7499.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0142",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 799.0 exceeds bank settlement amount of 749.0 by 50.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0149",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 479.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0152",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 exceeds bank settlement amount of 479.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0159",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 9999.0 exceeds bank settlement amount of 9979.0 by 20.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0163",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 799.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0164",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 9999.0 was recorded but bank settlement is 0.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0167",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 exceeds bank settlement amount of 1399.0 by 100.0, indicating a potential fee or adjustment.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0170",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank settlement of 19998.0 is twice the payment amount of 9999.0, indicating potential duplicate settlement.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0182",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1399.00; difference: 100.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0186",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 799.00; bank amount: 749.00; difference: 50.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0187",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Payment amount is 2499.00, while bank settlement is 1874.25. Difference: 624.75.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0192",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Payment amount is 499.00, while bank settlement is 249.50. Difference: 249.50.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0196",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 9999.00; bank amount: 9949.00; difference: 50.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0206",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1479.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0209",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Payment amount is 799.00, while bank settlement is 599.25. Difference: 199.75.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0211",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 999.00; bank amount: 989.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0217",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 799.00; bank amount: 789.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0218",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 4999.00; bank amount: 4979.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0219",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 9999.00; bank amount: 9899.00; difference: 100.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0222",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 1499.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0226",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 799.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0228",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0231",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Payment amount is 4999.00, while bank settlement is 2499.50. Difference: 2499.50.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0237",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 4999.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0238",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 999.00; bank amount: 899.00; difference: 100.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0240",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0248",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 799.00; bank amount: 779.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0249",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 999.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0252",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1489.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0254",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 4999.00; bank amount: 4979.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0263",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 4999.00; bank amount: 4989.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0269",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 999.00; bank amount: 989.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0274",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1489.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0275",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0276",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1489.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0280",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Payment amount is 499.00, while bank settlement is 374.25. Difference: 124.75.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0286",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0290",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 2499.00; bank amount: 2489.00; difference: 10.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0291",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 4999.00; bank amount: 4949.00; difference: 50.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0292",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Payment amount is 2499.00, while bank settlement is 624.75. Difference: 1874.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0293",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0294",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Payment amount is 1499.00, while bank settlement is 749.50. Difference: 749.50.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0295",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1399.00; difference: 100.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0300",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Payment amount is 499.00, while bank settlement is 374.25. Difference: 124.75.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0303",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 2499.00; bank amount: 2479.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0304",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 2499.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0305",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 4999.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0309",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 2499.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0310",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 9999.00; bank amount: 9899.00; difference: 100.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0315",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0317",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "The transaction appears to have multiple settlement records.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0318",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 1499.00; bank amount: 1479.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0319",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 999.00; bank amount: 949.00; difference: 50.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0320",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment amount of 4999.00 has no corresponding bank settlement.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0321",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Payment amount is 499.00, while bank settlement is 124.75. Difference: 374.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0322",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Payment amount is 2499.00, while bank settlement is 624.75. Difference: 1874.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0325",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount: 499.00; bank amount: 479.00; difference: 20.00.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0333",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Payment amount is 1499.00, while bank settlement is 374.75. Difference: 1124.25.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "deterministic_fallback"
+  },
+  {
+    "transaction_id": "TX0346",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 does not match bank amount of 479.0, showing a difference of 20.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0348",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 4999.0 does not match bank amount of 4979.0, showing a difference of 20.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0356",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 499.0 recorded but bank amount is 0.0, leaving an uncredited settlement difference of 499.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0359",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 4999.0 recorded but bank amount is 0.0, leaving an uncredited settlement difference of 4999.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0362",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 does not match bank amount of 1399.0, showing a difference of 100.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0368",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 999.0 does not match bank amount of 989.0, showing a difference of 10.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0373",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Bank amount of 1874.25 represents partial credit against payment amount of 2499.0, leaving 624.75 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0376",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank amount of 9998.0 is double the payment amount of 4999.0, indicating potential duplicate settlement processing.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0377",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 1499.0 recorded but bank amount is 0.0, leaving an uncredited settlement difference of 1499.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0381",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Bank amount of 1249.75 represents partial credit against payment amount of 4999.0, leaving 3749.25 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0383",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 2499.0 does not match bank amount of 2449.0, showing a difference of 50.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0386",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 does not match bank amount of 489.0, showing a difference of 10.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0387",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 9999.0 does not match bank amount of 9949.0, showing a difference of 50.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0389",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Bank amount of 124.75 represents partial credit against payment amount of 499.0, leaving 374.25 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0390",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 does not match bank amount of 1479.0, showing a difference of 20.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0393",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank amount of 1598.0 is double the payment amount of 799.0, indicating potential duplicate settlement processing.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0398",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 does not match bank amount of 1399.0, showing a difference of 100.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0400",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank amount of 4999.5 represents partial credit against payment amount of 9999.0, leaving 4999.5 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0403",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 799.0 does not match bank amount of 789.0, showing a difference of 10.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0411",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 2499.0 does not match bank amount of 2449.0, showing a difference of 50.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0413",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 799.0 does not match bank amount of 779.0, showing a difference of 20.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0415",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank amount of 499.5 represents partial credit against payment amount of 999.0, leaving 499.5 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0417",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank amount of 4999.5 represents partial credit against payment amount of 9999.0, leaving 4999.5 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0420",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Bank amount of 1874.25 represents partial credit against payment amount of 2499.0, leaving 624.75 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0422",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 9999.0 recorded but bank amount is 0.0, leaving an uncredited settlement difference of 9999.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0429",
+    "diagnosis": "Partial settlement detected; approximately 25.0% of the payment was credited",
+    "reason": "Bank amount of 2499.75 represents partial credit against payment amount of 9999.0, leaving 7499.25 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0430",
+    "diagnosis": "Partial settlement detected; approximately 75.0% of the payment was credited",
+    "reason": "Bank amount of 374.25 represents partial credit against payment amount of 499.0, leaving 124.75 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0431",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 499.0 recorded but bank amount is 0.0, leaving an uncredited settlement difference of 499.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0441",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank amount of 499.5 represents partial credit against payment amount of 999.0, leaving 499.5 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0445",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 1499.0 does not match bank amount of 1489.0, showing a difference of 10.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0455",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 999.0 does not match bank amount of 979.0, showing a difference of 20.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0456",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank amount of 249.5 represents partial credit against payment amount of 499.0, leaving 249.5 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0462",
+    "diagnosis": "Successful payment has no matching bank settlement",
+    "reason": "Payment of 4999.0 recorded but bank amount is 0.0, leaving an uncredited settlement difference of 4999.0.",
+    "confidence": 0.95,
+    "recommended_action": "Investigate settlement status and payout records",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0463",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank amount of 1598.0 is double the payment amount of 799.0, indicating potential duplicate settlement processing.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0468",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank amount of 1598.0 is double the payment amount of 799.0, indicating potential duplicate settlement processing.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0471",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 2499.0 does not match bank amount of 2399.0, showing a difference of 100.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0473",
+    "diagnosis": "Partial settlement detected; approximately 50.0% of the payment was credited",
+    "reason": "Bank amount of 499.5 represents partial credit against payment amount of 999.0, leaving 499.5 unsettled.",
+    "confidence": 0.97,
+    "recommended_action": "Verify settlement schedule and check for remaining payout",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0475",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank amount of 1998.0 is double the payment amount of 999.0, indicating potential duplicate settlement processing.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0490",
+    "diagnosis": "Likely processing fee or settlement adjustment",
+    "reason": "Payment amount of 499.0 does not match bank amount of 449.0, showing a difference of 50.0.",
+    "confidence": 0.9,
+    "recommended_action": "Verify applicable fee and reconcile",
+    "risk": "LOW",
+    "needs_human_review": false,
+    "source": "gemini"
+  },
+  {
+    "transaction_id": "TX0491",
+    "diagnosis": "Multiple bank records found for the same transaction",
+    "reason": "Bank amount of 19998.0 is double the payment amount of 9999.0, indicating potential duplicate settlement processing.",
+    "confidence": 0.98,
+    "recommended_action": "Investigate duplicate settlement before reconciliation",
+    "risk": "HIGH",
+    "needs_human_review": true,
+    "source": "gemini"
+  }
+]

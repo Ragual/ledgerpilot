@@ -1,0 +1,1620 @@
+[
+    {
+        "transaction_id": "TX0004",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0006",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 124.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0010",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0013",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -4999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0014",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0021",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0022",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -1499.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0027",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0028",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0029",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 4999.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0035",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -9999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0036",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0044",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0047",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 374.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0051",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0056",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0057",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 1124.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0058",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0061",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0063",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0070",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0075",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 249.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0078",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0079",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0084",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0089",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 749.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0091",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 249.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0093",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 799.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0096",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0098",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0100",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0104",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0108",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 2499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0109",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0123",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0126",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0133",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 399.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0134",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0136",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0137",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -799.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0138",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0140",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 7499.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0142",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0149",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0152",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0159",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0163",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 799.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0164",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 9999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0167",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0170",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -9999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0182",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0186",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0187",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 624.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0192",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 249.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0196",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0206",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0209",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 199.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0211",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0217",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0218",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0219",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0222",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 1499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0226",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 799.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0228",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -799.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0231",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 2499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0237",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0238",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0240",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -9999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0248",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0249",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0252",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0254",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0263",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0269",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0274",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0275",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0276",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0280",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 124.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0286",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -4999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0290",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0291",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0292",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 1874.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0293",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -4999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0294",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 749.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0295",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0300",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 124.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0303",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0304",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 2499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0305",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0309",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 2499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0310",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0315",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0317",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -1499.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0318",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0319",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0320",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0321",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 374.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0322",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 1874.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0325",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0333",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 1124.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0346",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0348",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0356",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0359",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0362",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0368",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0373",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 624.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0376",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -4999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0377",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 1499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0381",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 3749.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0383",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0386",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0387",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0389",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 374.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0390",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0393",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -799.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0398",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0400",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 4999.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0403",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0411",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0413",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0415",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0417",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 4999.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0420",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 624.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0422",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 9999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0429",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 7499.25,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0430",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 124.75,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0431",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 499.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0441",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0445",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 10.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0455",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 20.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0456",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 249.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0462",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate settlement",
+        "risk": "HIGH",
+        "confidence": 0.95,
+        "difference": 4999.0,
+        "guardrail_reasons": [
+            "Settlement record is missing",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0463",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -799.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0468",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -799.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0471",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 100.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0473",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Verify remaining settlement",
+        "risk": "HIGH",
+        "confidence": 0.97,
+        "difference": 499.5,
+        "guardrail_reasons": [
+            "Only part of the payment was settled",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0475",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    },
+    {
+        "transaction_id": "TX0490",
+        "decision": "AUTO_REVIEW",
+        "allowed_action": "Verify fee and reconcile",
+        "risk": "LOW",
+        "confidence": 0.9,
+        "difference": 50.0,
+        "guardrail_reasons": [
+            "Amount difference is within the approved threshold"
+        ]
+    },
+    {
+        "transaction_id": "TX0491",
+        "decision": "HUMAN_REVIEW",
+        "allowed_action": "Investigate duplicate settlement",
+        "risk": "HIGH",
+        "confidence": 0.98,
+        "difference": -9999.0,
+        "guardrail_reasons": [
+            "Multiple settlement records exist for the same transaction",
+            "AI classified the case as HIGH risk"
+        ]
+    }
+]
