@@ -8,6 +8,9 @@ The system is designed around a simple principle:
 
 > **AI recommends. Guardrails decide. Humans remain in control of financial decisions.**
 
+🌐 **[Live Demo](https://ledgerpilot-a3pg6s4pxfqdzrrusleevj.streamlit.app/)**
+
+💻 **[GitHub Repository](https://github.com/Ragual/ledgerpilot)**
 ---
 
 ## 🚀 Overview
